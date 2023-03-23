@@ -27,7 +27,6 @@ const Home = (props) => {
   useEffect(() => {
     setProducts(props.products)
     setBsProducts(props.bestSellingProds)
-    console.log(props.products)
   }, [props.products, props.bestSellingProds])
 
   useEffect(() => {
