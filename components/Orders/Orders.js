@@ -59,9 +59,9 @@ export default function Orders() {
             <h2 className="container text-uppercase mt-3" >Orders</h2>
             <div className="my-3">
                 <div>
-                    <div className="float-right">
+                    {/* <div className="float-right">
                         <Filters isAdmin={isAdmin} isUser={isUser} handleFilter={handleFilter} lengths={filterLengths} />
-                    </div>
+                    </div> */}
                     <div className="float-left">
                         <DateRangeSelector handleSelect={(range) => {
                             console.log('range', range)
