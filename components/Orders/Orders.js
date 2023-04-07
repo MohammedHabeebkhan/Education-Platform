@@ -58,10 +58,10 @@ export default function Orders() {
         <div className="justify-content-between">
             <h2 className="container text-uppercase mt-3" >Orders</h2>
             <div className="my-3">
-                <div>
-                    {/* <div className="float-right">
+                {/* <div>
+                    <div className="float-right">
                         <Filters isAdmin={isAdmin} isUser={isUser} handleFilter={handleFilter} lengths={filterLengths} />
-                    </div> */}
+                    </div>
                     <div className="float-left">
                         <DateRangeSelector handleSelect={(range) => {
                             console.log('range', range)
@@ -72,7 +72,7 @@ export default function Orders() {
                             defaultRange={dateRange}
                         />
                     </div>
-                </div>
+                </div> */}
                 <div className="p-2 mt-4 table-responsive orders-grid">
                     <OrdersGrid orders={filteredOrders} isAdmin={isAdmin} isUser={isUser} />
                 </div>
